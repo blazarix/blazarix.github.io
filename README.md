@@ -1,0 +1,2 @@
+# blazarix.github.io
+blog

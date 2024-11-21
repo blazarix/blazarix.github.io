@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Linux on 演示站点</title>
+        <link>https://blazarix.github.io./tags/linux/</link>
+        <description>Recent content in Linux on 演示站点</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Fri, 18 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blazarix.github.io./tags/linux/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Linux运行shell脚本提示No such file or directory</title>
+        <link>https://blazarix.github.io./p/linux%E8%BF%90%E8%A1%8Cshell%E8%84%9A%E6%9C%AC%E6%8F%90%E7%A4%BAno-such-file-or-directory/</link>
+        <pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://blazarix.github.io./p/linux%E8%BF%90%E8%A1%8Cshell%E8%84%9A%E6%9C%AC%E6%8F%90%E7%A4%BAno-such-file-or-directory/</guid>
+        <description>&lt;h3 id=&#34;起因&#34;&gt;起因
+&lt;/h3&gt;&lt;p&gt;在windows中写好的shell脚本，传到linux服务器中执行，提示No such file or directory错误，检查了一遍脚本编写的没问题&lt;/p&gt;
+&lt;h3 id=&#34;错误原因&#34;&gt;错误原因
+&lt;/h3&gt;&lt;p&gt;windows写好的shell文件默认是dos格式的，而linux运行文件的时候只识别unix格式的，所以文件编码出现了问题，导致没有正确读取到shell文件的内容&lt;/p&gt;
+&lt;h3 id=&#34;解决方法&#34;&gt;解决方法
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;用vim打开文件&lt;/li&gt;
+&lt;li&gt;输入&lt;code&gt;:set ff&lt;/code&gt;，回车显示fileformat=dos&lt;/li&gt;
+&lt;li&gt;执行&lt;code&gt;:set ff=unix&lt;/code&gt; ,回车保存退出&lt;/li&gt;
+&lt;li&gt;再执行命令 &lt;code&gt;sh test.sh&lt;/code&gt;，成功了&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

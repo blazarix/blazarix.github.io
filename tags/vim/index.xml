@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Vim on 演示站点</title>
+        <link>https://blazarix.github.io./tags/vim/</link>
+        <description>Recent content in Vim on 演示站点</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Thu, 31 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blazarix.github.io./tags/vim/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>vim常用快捷键</title>
+        <link>https://blazarix.github.io./p/vim%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</link>
+        <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://blazarix.github.io./p/vim%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid>
+        <description>&lt;h2 id=&#34;光标的移动&#34;&gt;光标的移动
+&lt;/h2&gt;&lt;h3 id=&#34;11-基本移动&#34;&gt;1.1 基本移动
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;h&lt;/code&gt; 左 &lt;code&gt;l&lt;/code&gt;右 &lt;code&gt;j&lt;/code&gt;下 &lt;code&gt;k&lt;/code&gt;上 &lt;code&gt;space&lt;/code&gt;右移 &lt;code&gt;backspace&lt;/code&gt;左移&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;+&lt;/code&gt;或者 &lt;code&gt;Enter&lt;/code&gt; 移动到下一行的第一个非空白字符&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;w&lt;/code&gt;下移一个单词，光标停留在下一个单词开头&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;W&lt;/code&gt;下移一个单词，忽略标点，标点不被算为单词。例：a.b c，会直接跳到c&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;e&lt;/code&gt;下移一个单词，光标停留在下一个单词末尾&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;E&lt;/code&gt;下移一个单词，忽略标点，表点不被算为单词。如果词尾有标点的话，光标停留在词尾的标点&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;b&lt;/code&gt;上移一个单词，光标停留在上一个单词开头&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;B&lt;/code&gt; 上移一个单词，光标停留在上一个单词开头，忽略标点，标点不被算为单词&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ge&lt;/code&gt;上移一个单词，光标停留在上一个单词末尾&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gE&lt;/code&gt; 上移一个单词，光标停留在上一个单词末尾，忽略标点，单词挨着的标点不被视为单词&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;(&lt;/code&gt; 前移一句&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;)&lt;/code&gt; 后移一句&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;{&lt;/code&gt; 前移一段&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;}&lt;/code&gt; 后移一段&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;fc&lt;/code&gt; 把光标移到同一行的下一个c字符处&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Fc&lt;/code&gt; 把光标移到同一行的上一个c字符处&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;tc&lt;/code&gt; 把光标移到同一行的下一个c字符前&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Tc&lt;/code&gt; 把光标移到同一行的上一个c字符后&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;;&lt;/code&gt; 配合f &amp;amp; t使用，重复一次&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;,&lt;/code&gt; 配合f &amp;amp; t使用，反向重复一次&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;12翻屏&#34;&gt;1.2翻屏
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ctrl+f&lt;/code&gt;下翻一屏&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ctrl+b&lt;/code&gt;上翻一屏&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ctrl+d&lt;/code&gt;下翻半屏&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ctrl+u&lt;/code&gt;上翻半屏&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;zz&lt;/code&gt; 将当前行移动到屏幕中央&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;zt&lt;/code&gt; 将当前行移动到屏幕顶端&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;zb&lt;/code&gt; 将当前行移动到屏幕底端&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;13标记&#34;&gt;1.3标记
+&lt;/h3&gt;&lt;p&gt;使用标记在两点之间快速移动&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;m{a-z}&lt;/code&gt; 标记光标位置，局部标记，退出文件后失效&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;m{A-Z}&lt;/code&gt; 标记光标位置，全局标记，退出后重新进入仍然有效&lt;/li&gt;
+&lt;li&gt;&lt;code&gt; `{a-z}&lt;/code&gt; 移动到标记的位置&lt;/li&gt;
+&lt;li&gt;&lt;code&gt; &lt;/code&gt; `` 返回到上次编辑的地方。&lt;code&gt;&#39;&#39;&lt;/code&gt;也可以，前者精确到列，后者精确到行。跳转到更老的位置用&lt;code&gt;ctrl+o&lt;/code&gt;跳转到更新的位置用&lt;code&gt;ctrl+i&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;`` &lt;code&gt;&amp;quot;&lt;/code&gt; 移动到上次离开的地方&lt;/li&gt;
+&lt;li&gt;`` &lt;code&gt;.&lt;/code&gt; 移动到最后改动的地方&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:marks&lt;/code&gt; 显示所有的标记&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:delmarks a b&lt;/code&gt; 删除标记a和b&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:delmarks a c-f&lt;/code&gt; 删除标记a和b&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:delmarks!&lt;/code&gt; 删除当前缓冲区所有的标记&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;插入文本&#34;&gt;插入文本
+&lt;/h2&gt;&lt;h3 id=&#34;21-基本插入&#34;&gt;2.1 基本插入
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;i&lt;/code&gt; 在光标前插入。(8i=&lt;esc&gt;可以插入8个等号，也可以批量插入其他的字符)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;I&lt;/code&gt; 在当前行的第一个非空字符前插入&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;a&lt;/code&gt; 在光标后插入&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;A&lt;/code&gt; 在当前行的最后插入&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;o&lt;/code&gt; 在下面新建一行插入&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;O&lt;/code&gt; 在上面新建一行插入&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;22-改写插入&#34;&gt;2.2 改写插入
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ciw&lt;/code&gt; 删除光标当前单词并进入插入模式(change in word)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ci&amp;quot;&lt;/code&gt; 删除光标引号内的内容并进入插入模式,&amp;ldquo;也可替换为括号大括号等，比较常用&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ct,&lt;/code&gt; 从当前光标删除到逗号之前的所有字符并进入插入模式，逗号可换为任何字符&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;剪切复制和寄存器&#34;&gt;剪切复制和寄存器
+&lt;/h2&gt;&lt;h3 id=&#34;31复制粘贴剪切&#34;&gt;3.1复制粘贴剪切
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;[n]x&lt;/code&gt; 剪切光标右边n个字符，相当与&lt;code&gt;d[n]l&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;[n]X&lt;/code&gt; 剪切光标左边n个字符，相当于&lt;code&gt;d[n]h&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;y&lt;/code&gt; 选中后复制文本&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;yy&lt;/code&gt; 复制整行&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;yaw yas&lt;/code&gt; 复制一个单词和一个句子，也可用&lt;code&gt;yiw``yis&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;d&lt;/code&gt; 删除选中后的内容&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;dd&lt;/code&gt; 删除整行&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;D&lt;/code&gt; 从当前光标删除到行尾&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;daw das&lt;/code&gt; 删除一个单词和一个句子，也可用&lt;code&gt;diw``dis&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;寄存器&#34;&gt;寄存器
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;a-z&lt;/code&gt; 都可用作寄存器名字,&lt;code&gt;&amp;quot;ayy&lt;/code&gt;把当前行的内容放在a寄存器&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;A-Z&lt;/code&gt; 用大写字母作寄存器可以在寄存器追加内容而不会替换&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;reg&lt;/code&gt; 显示寄存器的所有内容&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;quot;ap&lt;/code&gt; 粘贴寄存器a里面的内容到当前光标所在处&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;查找替换&#34;&gt;查找替换
+&lt;/h2&gt;&lt;h3 id=&#34;41-查找&#34;&gt;4.1 查找
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;/s&lt;/code&gt; 在后面的文本中查找字符串s&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;?something&lt;/code&gt; 在前面的文本中查找字符串s&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;n&lt;/code&gt; 向后查找下一个&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;N&lt;/code&gt; 向前查找下一个&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;42-替换&#34;&gt;4.2 替换
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;:s/old/new&lt;/code&gt; 用new替换当前行的第一个old&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:s/old/new/g&lt;/code&gt; 用new替换当前行的所有old&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:%s/old/new/g&lt;/code&gt; 用new替换文件中所有的old&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:%s/old/new/gc&lt;/code&gt; 用new替换文件中所有的old,但每次替换用户都要确认&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;43窗口编辑&#34;&gt;4.3窗口编辑
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ctrl+w v&lt;/code&gt; 垂直分隔当前窗口&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ctrl+w s&lt;/code&gt; 水平分隔当前窗口&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ctrl+w w&lt;/code&gt; 在分隔后的窗口之间切换&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ctrl+w h/j/k/l&lt;/code&gt; 在分隔后的窗口上下左右移动&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;快速编辑&#34;&gt;快速编辑
+&lt;/h2&gt;&lt;h3 id=&#34;51-normal模式替换&#34;&gt;5.1 normal模式替换
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;r&lt;/code&gt; 替换光标处的字符，支持汉字&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;R&lt;/code&gt; 从当前光标处逐字替换后面的所有字符&lt;/p&gt;
+&lt;h3 id=&#34;52-大小写切换&#34;&gt;5.2 大小写切换
+&lt;/h3&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;~&lt;/code&gt; 反转光标处的大小写&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;u/U&lt;/code&gt; 可视模式下，选中的文本变成大小写&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;gu/U+范围&lt;/code&gt; 把范围内的文本变成大小写&lt;/p&gt;
+&lt;h3 id=&#34;53-撤销重做&#34;&gt;5.3 撤销重做
+&lt;/h3&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;u&lt;/code&gt; 撤销上一步，前面可加n撤销上n步&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;U&lt;/code&gt; 取消当前行的所有改动&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;ctrl+r&lt;/code&gt; 重做最后的改动&lt;/p&gt;
+&lt;h3 id=&#34;54-宏&#34;&gt;5.4 宏
+&lt;/h3&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;.&lt;/code&gt; 重复上一个编辑动作&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;qa&lt;/code&gt; 开始录制宏a&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;q&lt;/code&gt; 停止录制&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;@a&lt;/code&gt; 播放宏a&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

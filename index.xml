@@ -1,696 +1,615 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>演示站点</title>
-        <link>https://blazarix.github.io./</link>
-        <description>Recent content on 演示站点</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        <copyright>Example Person</copyright>
-        <lastBuildDate>Thu, 07 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blazarix.github.io./index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>go run/build等命令无反应</title>
-        <link>https://blazarix.github.io./p/go-run/build%E7%AD%89%E5%91%BD%E4%BB%A4%E6%97%A0%E5%8F%8D%E5%BA%94/</link>
-        <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://blazarix.github.io./p/go-run/build%E7%AD%89%E5%91%BD%E4%BB%A4%E6%97%A0%E5%8F%8D%E5%BA%94/</guid>
-        <description>&lt;p&gt;在服务器安装了go环境后，运行&lt;code&gt;go run&lt;/code&gt; &lt;code&gt;go build&lt;/code&gt;等命令都会卡住&lt;/p&gt;
-&lt;p&gt;配置下代理即可&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;go env -w &lt;span class=&#34;nv&#34;&gt;GOPROXY&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;https://goroxy.com
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;go env -w &lt;span class=&#34;nv&#34;&gt;GO111MODULE&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;on
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;或者
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;GOPROXY&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;https://goroxy.com
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;GO111MODULE&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;on
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-        </item>
-        <item>
-        <title>Vscode 使用GitBash作为默认终端</title>
-        <link>https://blazarix.github.io./p/vscode-%E4%BD%BF%E7%94%A8gitbash%E4%BD%9C%E4%B8%BA%E9%BB%98%E8%AE%A4%E7%BB%88%E7%AB%AF/</link>
-        <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://blazarix.github.io./p/vscode-%E4%BD%BF%E7%94%A8gitbash%E4%BD%9C%E4%B8%BA%E9%BB%98%E8%AE%A4%E7%BB%88%E7%AB%AF/</guid>
-        <description>&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;打开setting.json&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;添加以下json&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;terminal.integrated.profiles.windows&amp;#34;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;     &lt;span class=&#34;nt&#34;&gt;&amp;#34;Git-Bash&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nt&#34;&gt;&amp;#34;path&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;D:\\ProgramFiles\\Git\\bin\\bash.exe&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nt&#34;&gt;&amp;#34;args&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;terminal.integrated.defaultProfile.windows&amp;#34;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Git-Bash&amp;#34;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        </item>
-        <item>
-        <title>vim常用快捷键</title>
-        <link>https://blazarix.github.io./p/vim%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</link>
-        <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://blazarix.github.io./p/vim%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid>
-        <description>&lt;h2 id=&#34;光标的移动&#34;&gt;光标的移动
-&lt;/h2&gt;&lt;h3 id=&#34;11-基本移动&#34;&gt;1.1 基本移动
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;h&lt;/code&gt; 左 &lt;code&gt;l&lt;/code&gt;右 &lt;code&gt;j&lt;/code&gt;下 &lt;code&gt;k&lt;/code&gt;上 &lt;code&gt;space&lt;/code&gt;右移 &lt;code&gt;backspace&lt;/code&gt;左移&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;+&lt;/code&gt;或者 &lt;code&gt;Enter&lt;/code&gt; 移动到下一行的第一个非空白字符&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;w&lt;/code&gt;下移一个单词，光标停留在下一个单词开头&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;W&lt;/code&gt;下移一个单词，忽略标点，标点不被算为单词。例：a.b c，会直接跳到c&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;e&lt;/code&gt;下移一个单词，光标停留在下一个单词末尾&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;E&lt;/code&gt;下移一个单词，忽略标点，表点不被算为单词。如果词尾有标点的话，光标停留在词尾的标点&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;b&lt;/code&gt;上移一个单词，光标停留在上一个单词开头&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;B&lt;/code&gt; 上移一个单词，光标停留在上一个单词开头，忽略标点，标点不被算为单词&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ge&lt;/code&gt;上移一个单词，光标停留在上一个单词末尾&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;gE&lt;/code&gt; 上移一个单词，光标停留在上一个单词末尾，忽略标点，单词挨着的标点不被视为单词&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;(&lt;/code&gt; 前移一句&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;)&lt;/code&gt; 后移一句&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;{&lt;/code&gt; 前移一段&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;}&lt;/code&gt; 后移一段&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;fc&lt;/code&gt; 把光标移到同一行的下一个c字符处&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Fc&lt;/code&gt; 把光标移到同一行的上一个c字符处&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;tc&lt;/code&gt; 把光标移到同一行的下一个c字符前&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Tc&lt;/code&gt; 把光标移到同一行的上一个c字符后&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;;&lt;/code&gt; 配合f &amp;amp; t使用，重复一次&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;,&lt;/code&gt; 配合f &amp;amp; t使用，反向重复一次&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;12翻屏&#34;&gt;1.2翻屏
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;ctrl+f&lt;/code&gt;下翻一屏&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ctrl+b&lt;/code&gt;上翻一屏&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ctrl+d&lt;/code&gt;下翻半屏&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ctrl+u&lt;/code&gt;上翻半屏&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;zz&lt;/code&gt; 将当前行移动到屏幕中央&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;zt&lt;/code&gt; 将当前行移动到屏幕顶端&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;zb&lt;/code&gt; 将当前行移动到屏幕底端&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;13标记&#34;&gt;1.3标记
-&lt;/h3&gt;&lt;p&gt;使用标记在两点之间快速移动&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;m{a-z}&lt;/code&gt; 标记光标位置，局部标记，退出文件后失效&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;m{A-Z}&lt;/code&gt; 标记光标位置，全局标记，退出后重新进入仍然有效&lt;/li&gt;
-&lt;li&gt;&lt;code&gt; `{a-z}&lt;/code&gt; 移动到标记的位置&lt;/li&gt;
-&lt;li&gt;&lt;code&gt; &lt;/code&gt; `` 返回到上次编辑的地方。&lt;code&gt;&#39;&#39;&lt;/code&gt;也可以，前者精确到列，后者精确到行。跳转到更老的位置用&lt;code&gt;ctrl+o&lt;/code&gt;跳转到更新的位置用&lt;code&gt;ctrl+i&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;`` &lt;code&gt;&amp;quot;&lt;/code&gt; 移动到上次离开的地方&lt;/li&gt;
-&lt;li&gt;`` &lt;code&gt;.&lt;/code&gt; 移动到最后改动的地方&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;:marks&lt;/code&gt; 显示所有的标记&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;:delmarks a b&lt;/code&gt; 删除标记a和b&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;:delmarks a c-f&lt;/code&gt; 删除标记a和b&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;:delmarks!&lt;/code&gt; 删除当前缓冲区所有的标记&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;插入文本&#34;&gt;插入文本
-&lt;/h2&gt;&lt;h3 id=&#34;21-基本插入&#34;&gt;2.1 基本插入
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;i&lt;/code&gt; 在光标前插入。(8i=&lt;esc&gt;可以插入8个等号，也可以批量插入其他的字符)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;I&lt;/code&gt; 在当前行的第一个非空字符前插入&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;a&lt;/code&gt; 在光标后插入&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;A&lt;/code&gt; 在当前行的最后插入&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;o&lt;/code&gt; 在下面新建一行插入&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;O&lt;/code&gt; 在上面新建一行插入&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;22-改写插入&#34;&gt;2.2 改写插入
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;ciw&lt;/code&gt; 删除光标当前单词并进入插入模式(change in word)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ci&amp;quot;&lt;/code&gt; 删除光标引号内的内容并进入插入模式,&amp;ldquo;也可替换为括号大括号等，比较常用&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ct,&lt;/code&gt; 从当前光标删除到逗号之前的所有字符并进入插入模式，逗号可换为任何字符&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;剪切复制和寄存器&#34;&gt;剪切复制和寄存器
-&lt;/h2&gt;&lt;h3 id=&#34;31复制粘贴剪切&#34;&gt;3.1复制粘贴剪切
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;[n]x&lt;/code&gt; 剪切光标右边n个字符，相当与&lt;code&gt;d[n]l&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;[n]X&lt;/code&gt; 剪切光标左边n个字符，相当于&lt;code&gt;d[n]h&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;y&lt;/code&gt; 选中后复制文本&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;yy&lt;/code&gt; 复制整行&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;yaw yas&lt;/code&gt; 复制一个单词和一个句子，也可用&lt;code&gt;yiw``yis&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;d&lt;/code&gt; 删除选中后的内容&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;dd&lt;/code&gt; 删除整行&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;D&lt;/code&gt; 从当前光标删除到行尾&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;daw das&lt;/code&gt; 删除一个单词和一个句子，也可用&lt;code&gt;diw``dis&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;寄存器&#34;&gt;寄存器
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;a-z&lt;/code&gt; 都可用作寄存器名字,&lt;code&gt;&amp;quot;ayy&lt;/code&gt;把当前行的内容放在a寄存器&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;A-Z&lt;/code&gt; 用大写字母作寄存器可以在寄存器追加内容而不会替换&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;reg&lt;/code&gt; 显示寄存器的所有内容&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;&amp;quot;ap&lt;/code&gt; 粘贴寄存器a里面的内容到当前光标所在处&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;查找替换&#34;&gt;查找替换
-&lt;/h2&gt;&lt;h3 id=&#34;41-查找&#34;&gt;4.1 查找
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;/s&lt;/code&gt; 在后面的文本中查找字符串s&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;?something&lt;/code&gt; 在前面的文本中查找字符串s&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;n&lt;/code&gt; 向后查找下一个&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;N&lt;/code&gt; 向前查找下一个&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;42-替换&#34;&gt;4.2 替换
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;:s/old/new&lt;/code&gt; 用new替换当前行的第一个old&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;:s/old/new/g&lt;/code&gt; 用new替换当前行的所有old&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;:%s/old/new/g&lt;/code&gt; 用new替换文件中所有的old&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;:%s/old/new/gc&lt;/code&gt; 用new替换文件中所有的old,但每次替换用户都要确认&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;43窗口编辑&#34;&gt;4.3窗口编辑
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;ctrl+w v&lt;/code&gt; 垂直分隔当前窗口&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ctrl+w s&lt;/code&gt; 水平分隔当前窗口&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ctrl+w w&lt;/code&gt; 在分隔后的窗口之间切换&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ctrl+w h/j/k/l&lt;/code&gt; 在分隔后的窗口上下左右移动&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;快速编辑&#34;&gt;快速编辑
-&lt;/h2&gt;&lt;h3 id=&#34;51-normal模式替换&#34;&gt;5.1 normal模式替换
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;r&lt;/code&gt; 替换光标处的字符，支持汉字&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;R&lt;/code&gt; 从当前光标处逐字替换后面的所有字符&lt;/p&gt;
-&lt;h3 id=&#34;52-大小写切换&#34;&gt;5.2 大小写切换
-&lt;/h3&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;~&lt;/code&gt; 反转光标处的大小写&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;u/U&lt;/code&gt; 可视模式下，选中的文本变成大小写&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;gu/U+范围&lt;/code&gt; 把范围内的文本变成大小写&lt;/p&gt;
-&lt;h3 id=&#34;53-撤销重做&#34;&gt;5.3 撤销重做
-&lt;/h3&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;u&lt;/code&gt; 撤销上一步，前面可加n撤销上n步&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;U&lt;/code&gt; 取消当前行的所有改动&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;ctrl+r&lt;/code&gt; 重做最后的改动&lt;/p&gt;
-&lt;h3 id=&#34;54-宏&#34;&gt;5.4 宏
-&lt;/h3&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;.&lt;/code&gt; 重复上一个编辑动作&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;qa&lt;/code&gt; 开始录制宏a&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;q&lt;/code&gt; 停止录制&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;@a&lt;/code&gt; 播放宏a&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        <item>
-        <title>在Windows中使用vscode &#43; gitbash &#43; oh-my-zsh打造完美的开发体验</title>
-        <link>https://blazarix.github.io./p/%E5%9C%A8windows%E4%B8%AD%E4%BD%BF%E7%94%A8vscode--gitbash--oh-my-zsh%E6%89%93%E9%80%A0%E5%AE%8C%E7%BE%8E%E7%9A%84%E5%BC%80%E5%8F%91%E4%BD%93%E9%AA%8C/</link>
-        <pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://blazarix.github.io./p/%E5%9C%A8windows%E4%B8%AD%E4%BD%BF%E7%94%A8vscode--gitbash--oh-my-zsh%E6%89%93%E9%80%A0%E5%AE%8C%E7%BE%8E%E7%9A%84%E5%BC%80%E5%8F%91%E4%BD%93%E9%AA%8C/</guid>
-        <description>&lt;h2 id=&#34;前言&#34;&gt;前言
-&lt;/h2&gt;&lt;hr&gt;
-&lt;p&gt;windows端自带的命令行太弱了，用惯了linux命令行，所以想着能不能在windows中也能使用linux/mac中颜值超高的oh-my-zsh,于是开始各种百度搜索教程，试了很多，大多都很麻烦，而且中间有各种坑，试了几个还是放弃了，最后还是看到了&lt;a class=&#34;link&#34; href=&#34;http://i.lckiss.com/?p=6268&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;伪斜杠青年的博客&lt;/a&gt;，终于配置成功了。&lt;/p&gt;
-&lt;h2 id=&#34;安装步骤&#34;&gt;安装步骤
-&lt;/h2&gt;&lt;hr&gt;
-&lt;h3 id=&#34;vscode-配置gitbash作为默认终端&#34;&gt;vscode 配置gitbash作为默认终端
-&lt;/h3&gt;&lt;p&gt;粘贴以下配置文件到&lt;code&gt;vscode-&amp;gt;settings.json&lt;/code&gt;中&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Git-Bash&amp;#34;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nt&#34;&gt;&amp;#34;path&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;D:\\ProgramFiles\\Git\\bin\\bash.exe&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nt&#34;&gt;&amp;#34;args&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;terminal.integrated.defaultProfile.windows&amp;#34;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Git-Bash&amp;#34;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;然后每次打开vscode默认就是gitbash啦&lt;/p&gt;
-&lt;h3 id=&#34;下载并解压zsh&#34;&gt;下载并解压zsh
-&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://packages.msys2.org/package/zsh?repo=msys&amp;amp;variant=x86_64&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;官方下载地址&lt;/a&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;下载后解压到git的根目录并覆盖&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;进入git/usr/bin目录下，发现有两个zsh文件&lt;code&gt;zsh.exe&lt;/code&gt; &lt;code&gt;zsh-5.8.exe&lt;/code&gt;，删除&lt;code&gt;zsh.exe&lt;/code&gt;这个文件，然后把&lt;code&gt;zsh-5.8.exe&lt;/code&gt;这个文件重命名为&lt;code&gt;zsh&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;进入到用户根目录&lt;code&gt;~&lt;/code&gt;下，安装 oh-my-zsh 。一键式安装指令：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;sh&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;c&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;由于github在国内访问速度慢很容易克隆不下来，所以还是建议用国内的码云克隆下来&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone git@gitee.com:mirrors/oh-my-zsh.git
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;打开gitbash执行zsh就可以看到zsh界面了&lt;img src=&#34;https://img.blazarx.xyz/img/20220322224020.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;打开vscode查看&lt;img src=&#34;https://img.blazarx.xyz/img/20220322225155.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;每次打开都要输入zsh太过麻烦，在&lt;code&gt;~/.bashrc&lt;/code&gt;文件中添加下面几行,这样每次打开bash就自动进入zsh了&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# Launch Zsh
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;if [ -t 1 ]; then
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;exec zsh
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;fi
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;安装插件&#34;&gt;安装插件
-&lt;/h2&gt;&lt;hr&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;用zsh当然最重要的就是插件啦，git clone容易失效，所以我选择直接到github仓库把zip包下载下来，
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>演示站点</title><link>https://blazarix.github.io./</link><description>Recent content on 演示站点</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Example Person</copyright><lastBuildDate>Fri, 22 Nov 2024 00:52:54 +0800</lastBuildDate><atom:link href="https://blazarix.github.io./index.xml" rel="self" type="application/rss+xml"/><item><title>认知觉醒精读</title><link>https://blazarix.github.io./post/cognitive-awakening-and-reading-zoeww5.html</link><pubDate>Sun, 01 Sep 2024 16:19:05 +0800</pubDate><guid>https://blazarix.github.io./post/cognitive-awakening-and-reading-zoeww5.html</guid><description>&lt;h1 id="认知觉醒精读">认知觉醒精读
+&lt;/h1>&lt;p>&lt;strong>所以，更多的时候你需要把它当成一本工具书，时常回顾、思考和实践，直到己发生真正的变化，而不是一读了之、过过“脑瘾”&lt;/strong> 。&lt;/p>
+&lt;h2 id="自序-开启自我改变的原动力">自序 开启自我改变的原动力
+&lt;/h2>&lt;blockquote>
+&lt;p>如果不出意外，大多数人都会沿着“求学—工作—婚恋”的路线成长，随着生活的惯性一直往前走。年轻的时候，几乎没有人会觉得自己的将来能有多差，认定美好的生活会自然到来。不谙世事的我们认为：即使暂时说不清具体该怎么做，但有份十足的信心就够了，毕竟年轻无敌嘛！然而现实并不总像我们想象的那样。在这份十足的信心陪伴多年之后，&lt;strong>大多数人发现自己并没有变得特别，而是在不断地服从社会规则和应对生活烦恼，开始随波逐流：该玩手机玩手机、该打游戏打游戏；没有多少压力，也没有多少动力；觉得反正日子还过得去，希望也还在心里，偶尔挣扎呐喊一声，而后继续做着短视的选择，沉溺于眼前的安逸。&lt;/strong> 他们对这个世界的运行规则浑然不知：不知道事物的构成、框架，不知道努力的路径、方法，也不知道自己真正想要什么、能做什么、最后会成为什么样的人……&lt;/p>
+&lt;/blockquote>
+&lt;p>这不就是我吗，一直做着短视的选择。高考时为了想快点玩，不想承受高考的压力，没有选择复读。进了一个普普通通的二本，在大学浑浑噩噩的过了四年，打了四年游戏。但是我又没有完全堕落，又保留着一丝清醒，随波逐流。参加工作了，一腔热血，最后还是沉溺于公司的安逸，一年经验也没成长多少。我总是间歇性努力，玩也玩不尽性，学也学不明白，干啥都是普普通通的，打游戏也打不明白。想努力又不只从何做起，看了这么多书，对我的生活还是一成不变。到底是为什么，是什么原因导致我控制不了自己？重新读这本书，精读，想重新改变自己的生活方式了。&lt;/p>
+&lt;blockquote>
+&lt;p>想勤奋，却总是敌不过惰性；想努力，却总是陷入低效的状态；想精进，面前却总是弯路不断；读了很多书，都忘了；付出很多努力，都白费了。他们仿佛越使劲越困惑，越努力越迷茫。&lt;strong>这就是“醒着的睡着的人”&lt;/strong> 的画像，事实上也是我曾经的画像。&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>在很长一段时间内，我就像一个没有睡醒的人，对自己不了解，对生活没主张，对命运无选择。那时的我，虽然对本职工作非常投入，但业余时间几乎被不需要动脑筋的事情占据：有空就找朋友们聚会，时常喝到烂醉；经常熬夜，从不主动看书、运动；打发时间的方式就是看搞笑视频、读八卦新闻、玩手机游戏；实在没事可做，就裹起被子睡大觉……下意识中，我觉得这种无忧的生活会继续下去&lt;/p>
+&lt;/blockquote>
+&lt;p>每一字每一句说的都是我！！重读还是想新读一样&lt;/p>
+&lt;blockquote>
+&lt;p>我发现每天有事情做不代表觉醒，每天都努力也不代表觉醒，&lt;strong>真正的觉醒是一种发自内心的渴望，立足长远，保持耐心，运用认知的力量与时间做朋友&lt;/strong>；我发现人与人之间的根本差异是认知能力上的差异，因为认知影响选择，而选择改变命运，所以成长的本质就是让大脑的认知变得更加清晰；&lt;/p>
+&lt;/blockquote>
+&lt;p>说白了，就是信息差。你了解的信息越多，越能对局面作出正确的判断，自己做出正确的选择。就像瓦罗兰特一样，获取的信息越多，越可能做出最正确的选择，而正确的选择决定了这一局的输赢。人生也是一样，要尽可能多的获取更多的信息来帮助我们选择，但是知识是无穷无尽的，这一辈子也学不完。所以应该学习那些具有普适性的知识，也就是最底层的知识，然后根据这些知识来推演当前的情况。这些底层的知识，我认为就是元认知，也是作者后面提到的。&lt;/p>
+&lt;p>‍&lt;/p>
+&lt;h2 id="焦虑的根源">焦虑的根源
+&lt;/h2>&lt;blockquote>
+&lt;p>归结起来，焦虑的原因就两条：&lt;strong>想同时做很多事，又想立即看到效果&lt;/strong>。王小波说：人的一切痛苦，本质上都是对自己无能的愤怒。焦虑的本质也契合这一观点：自己的欲望大于能力，又极度缺乏耐心。焦虑就是因为欲望与能力之间差&lt;/p>
+&lt;/blockquote>
+&lt;p>想起金木的一句话，一切的痛苦，都是自身能力的不足导致的！&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>焦虑并不完全源于我们的主观意识，而是来自我们大脑的生理结构&lt;/strong>。我们已经知道人类的天生属性是避难趋易和急于求成，也就是说，在我们内心深处早就埋下了这样的种子：急于求成，想同时做很多事；避难趋易，想不怎么努力就立即看到效果&lt;/p>
+&lt;/blockquote>
+&lt;p>正确认识焦虑，找到焦虑的原因，是人的天性，不要抵触。&lt;/p>
+&lt;blockquote>
+&lt;p>即对于学习而言，学习之后的思考、思考之后的行动、行动之后的改变更重要，如果不盯住内层的改变量，那么在表层投入再多的学习量也会事倍功半；&lt;/p>
+&lt;p>​&lt;img src="https://blazarix.github.io./assets/image-20240901170104-48kbpvu.png"
+loading="lazy"
+alt="image-20240901170104-48kbpvu"
+>​&lt;/p>
+&lt;/blockquote>
+&lt;p>学而不思则罔，思而不学则殆。就算看了很多书，但是自己不做出改变，没有应用到自己的实际生活中，过了一段时间还是会忘，等于白读。所以看一个人学了多少东西，不是看读了多少，而是转化到自己实际生活中的比例。转化率越高，学习的效果才越高。实践才是检验真理的唯一标准！&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>读书时不求记住书中的全部知识，只要有一两个观点促使自己发生了切实的改变就足够了，其收获与意义比读很多书但仅停留在知道的层面要大得多&lt;/strong>。时常以这样的标准指导自己学习，我们的收获就会越来越多，焦虑就会越来越少，耐心自然也就越来越强了&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>以后读书，不要过于追求读的量，要更多的体会，思考&lt;/strong>，书中有哪些观点能影响自己使自己发生改变，哪怕只要有一个，这本书也不是白读！&lt;/p>
+&lt;blockquote>
+&lt;p>几乎任何学习都是这样，刚开始的时候进步很快，然后会变慢，进入一个平台期。在平台期，我们可能付出了大量的努力，但看起来毫无进步，甚至可能退步，不过这仅仅是一个假象，因为大脑中的神经元细胞依旧在发生连接并被不停地巩固，到了某一节点后，就会进入下一个快速上升阶段。&lt;/p>
+&lt;/blockquote>
+&lt;p>打游戏也是这样，打了很多小时后，会进入平台期，这个时期会感觉自己越来越菜。进入了瓶颈，但是只要坚持一段时间，就又会进入到上升期，是质的飞跃。&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>当我们明白缺乏耐心是自己的天性时，就坦然接纳吧&lt;/strong>！从现在开始，对自己表现出的任何急躁、焦虑、不耐烦，都不要感到自责和愧疚，一旦觉察自己开始失去耐心了，就温和地对自己说：“你看，我身体里那个原始人又出来了，让他离开丛林到城市生活，确实挺不容易的，要理解他。”只要你温和地与自己对话，“体内的原始人”就会愿意倾听你的意愿。当然，培养耐心的过程可能比较长，不要指望一下子就能很有耐心，如果对自己不能立即变好这件事感到焦虑，这本身就是缺乏耐心的表现。所以，培&lt;strong>养耐心要从接受自己缺乏耐心这一事实开始。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;p>接受自己就是缺乏耐心的事实，并不要为此感到焦虑自责愧疚，这是人的本性使然。和自己和平共处。&lt;/p>
+&lt;blockquote>
+&lt;p>上午和下午开始工作前，我也采用同样的策略，对自己说：“暂时忍耐一下，先做重要的事情，之后会有半小时或一小时的时间专门玩手机，想怎么玩都行。”通过自我沟通和引导，本能脑和情绪脑产生了安全感，通常它们都舍得放手让理智脑插个队&lt;/p>
+&lt;/blockquote>
+&lt;p>学会延迟满足，并通过日常的生活细节来培养延迟满足的习惯。午休上班前总想玩会手机，明明手里有更重要的任务要做，但是就是屈服于自己的天性，刷手机刷抖音，想着刷会抖音再做也不出迟。到最后玩手机玩很久，真正开始干活反而没剩下多少时间了。这个以后要改变，工作时，先把自己的活干完，和本能脑以及情绪脑沟通，让理智脑先插个队。比如以工作优先，和自己交流，这两个任务做完再刷会抖音也不迟。等下给自己刷抖音半小时的时间！&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>“后娱乐”的好处是，将享乐的快感建立在完成重要任务后的成就感之上，很放松、踏实，就像一种奖赏；&lt;/strong> 而“先娱乐”虽然刚开始很快活，但精力会无限发散，拖延重要的工作，随着时间的流逝，人会空虚、焦虑&lt;/p>
+&lt;/blockquote>
+&lt;p>后娱乐，娱乐是奖励，奖励能驱动自己进行下一轮循环。先娱乐，像当于透支了未来的娱乐，娱乐后想着自己后面要痛苦了，前面又啥也没干一样，又会自责空虚焦虑。&lt;strong>这一点改变不是那么简单的，要在日常生活中经常提醒自己。延迟满足！&lt;/strong>&lt;/p></description></item><item><title>go run/build等命令无反应</title><link>https://blazarix.github.io./p/go-run/build%E7%AD%89%E5%91%BD%E4%BB%A4%E6%97%A0%E5%8F%8D%E5%BA%94/</link><pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate><guid>https://blazarix.github.io./p/go-run/build%E7%AD%89%E5%91%BD%E4%BB%A4%E6%97%A0%E5%8F%8D%E5%BA%94/</guid><description>&lt;p>在服务器安装了go环境后，运行&lt;code>go run&lt;/code> &lt;code>go build&lt;/code>等命令都会卡住&lt;/p>
+&lt;p>配置下代理即可&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">go env -w &lt;span class="nv">GOPROXY&lt;/span>&lt;span class="o">=&lt;/span>https://goroxy.com
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">go env -w &lt;span class="nv">GO111MODULE&lt;/span>&lt;span class="o">=&lt;/span>on
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">或者
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">export&lt;/span> &lt;span class="nv">GOPROXY&lt;/span>&lt;span class="o">=&lt;/span>https://goroxy.com
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">export&lt;/span> &lt;span class="nv">GO111MODULE&lt;/span>&lt;span class="o">=&lt;/span>on
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>测试测试测试
+测试测试测试
+测试测试测试&lt;/p></description></item><item><title>Vscode 使用GitBash作为默认终端</title><link>https://blazarix.github.io./p/vscode-%E4%BD%BF%E7%94%A8gitbash%E4%BD%9C%E4%B8%BA%E9%BB%98%E8%AE%A4%E7%BB%88%E7%AB%AF/</link><pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate><guid>https://blazarix.github.io./p/vscode-%E4%BD%BF%E7%94%A8gitbash%E4%BD%9C%E4%B8%BA%E9%BB%98%E8%AE%A4%E7%BB%88%E7%AB%AF/</guid><description>&lt;ol>
+&lt;li>
+&lt;p>打开setting.json&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>添加以下json&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="s2">&amp;#34;terminal.integrated.profiles.windows&amp;#34;&lt;/span>&lt;span class="err">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;Git-Bash&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;path&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;D:\\ProgramFiles\\Git\\bin\\bash.exe&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;args&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">[]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>&lt;span class="err">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2">&amp;#34;terminal.integrated.defaultProfile.windows&amp;#34;&lt;/span>&lt;span class="err">:&lt;/span> &lt;span class="s2">&amp;#34;Git-Bash&amp;#34;&lt;/span>&lt;span class="err">,&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;/ol></description></item><item><title>vim常用快捷键</title><link>https://blazarix.github.io./p/vim%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</link><pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate><guid>https://blazarix.github.io./p/vim%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid><description>&lt;h2 id="光标的移动">光标的移动
+&lt;/h2>&lt;h3 id="11-基本移动">1.1 基本移动
+&lt;/h3>&lt;ul>
+&lt;li>&lt;code>h&lt;/code> 左 &lt;code>l&lt;/code>右 &lt;code>j&lt;/code>下 &lt;code>k&lt;/code>上 &lt;code>space&lt;/code>右移 &lt;code>backspace&lt;/code>左移&lt;/li>
+&lt;li>&lt;code>+&lt;/code>或者 &lt;code>Enter&lt;/code> 移动到下一行的第一个非空白字符&lt;/li>
+&lt;li>&lt;code>w&lt;/code>下移一个单词，光标停留在下一个单词开头&lt;/li>
+&lt;li>&lt;code>W&lt;/code>下移一个单词，忽略标点，标点不被算为单词。例：a.b c，会直接跳到c&lt;/li>
+&lt;li>&lt;code>e&lt;/code>下移一个单词，光标停留在下一个单词末尾&lt;/li>
+&lt;li>&lt;code>E&lt;/code>下移一个单词，忽略标点，表点不被算为单词。如果词尾有标点的话，光标停留在词尾的标点&lt;/li>
+&lt;li>&lt;code>b&lt;/code>上移一个单词，光标停留在上一个单词开头&lt;/li>
+&lt;li>&lt;code>B&lt;/code> 上移一个单词，光标停留在上一个单词开头，忽略标点，标点不被算为单词&lt;/li>
+&lt;li>&lt;code>ge&lt;/code>上移一个单词，光标停留在上一个单词末尾&lt;/li>
+&lt;li>&lt;code>gE&lt;/code> 上移一个单词，光标停留在上一个单词末尾，忽略标点，单词挨着的标点不被视为单词&lt;/li>
+&lt;li>&lt;code>(&lt;/code> 前移一句&lt;/li>
+&lt;li>&lt;code>)&lt;/code> 后移一句&lt;/li>
+&lt;li>&lt;code>{&lt;/code> 前移一段&lt;/li>
+&lt;li>&lt;code>}&lt;/code> 后移一段&lt;/li>
+&lt;li>&lt;code>fc&lt;/code> 把光标移到同一行的下一个c字符处&lt;/li>
+&lt;li>&lt;code>Fc&lt;/code> 把光标移到同一行的上一个c字符处&lt;/li>
+&lt;li>&lt;code>tc&lt;/code> 把光标移到同一行的下一个c字符前&lt;/li>
+&lt;li>&lt;code>Tc&lt;/code> 把光标移到同一行的上一个c字符后&lt;/li>
+&lt;li>&lt;code>;&lt;/code> 配合f &amp;amp; t使用，重复一次&lt;/li>
+&lt;li>&lt;code>,&lt;/code> 配合f &amp;amp; t使用，反向重复一次&lt;/li>
+&lt;/ul>
+&lt;h3 id="12翻屏">1.2翻屏
+&lt;/h3>&lt;ul>
+&lt;li>&lt;code>ctrl+f&lt;/code>下翻一屏&lt;/li>
+&lt;li>&lt;code>ctrl+b&lt;/code>上翻一屏&lt;/li>
+&lt;li>&lt;code>ctrl+d&lt;/code>下翻半屏&lt;/li>
+&lt;li>&lt;code>ctrl+u&lt;/code>上翻半屏&lt;/li>
+&lt;li>&lt;code>zz&lt;/code> 将当前行移动到屏幕中央&lt;/li>
+&lt;li>&lt;code>zt&lt;/code> 将当前行移动到屏幕顶端&lt;/li>
+&lt;li>&lt;code>zb&lt;/code> 将当前行移动到屏幕底端&lt;/li>
+&lt;/ul>
+&lt;h3 id="13标记">1.3标记
+&lt;/h3>&lt;p>使用标记在两点之间快速移动&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>m{a-z}&lt;/code> 标记光标位置，局部标记，退出文件后失效&lt;/li>
+&lt;li>&lt;code>m{A-Z}&lt;/code> 标记光标位置，全局标记，退出后重新进入仍然有效&lt;/li>
+&lt;li>&lt;code> `{a-z}&lt;/code> 移动到标记的位置&lt;/li>
+&lt;li>&lt;code> &lt;/code> `` 返回到上次编辑的地方。&lt;code>''&lt;/code>也可以，前者精确到列，后者精确到行。跳转到更老的位置用&lt;code>ctrl+o&lt;/code>跳转到更新的位置用&lt;code>ctrl+i&lt;/code>&lt;/li>
+&lt;li>`` &lt;code>&amp;quot;&lt;/code> 移动到上次离开的地方&lt;/li>
+&lt;li>`` &lt;code>.&lt;/code> 移动到最后改动的地方&lt;/li>
+&lt;li>&lt;code>:marks&lt;/code> 显示所有的标记&lt;/li>
+&lt;li>&lt;code>:delmarks a b&lt;/code> 删除标记a和b&lt;/li>
+&lt;li>&lt;code>:delmarks a c-f&lt;/code> 删除标记a和b&lt;/li>
+&lt;li>&lt;code>:delmarks!&lt;/code> 删除当前缓冲区所有的标记&lt;/li>
+&lt;/ul>
+&lt;h2 id="插入文本">插入文本
+&lt;/h2>&lt;h3 id="21-基本插入">2.1 基本插入
+&lt;/h3>&lt;ul>
+&lt;li>&lt;code>i&lt;/code> 在光标前插入。(8i=&lt;esc>可以插入8个等号，也可以批量插入其他的字符)&lt;/li>
+&lt;li>&lt;code>I&lt;/code> 在当前行的第一个非空字符前插入&lt;/li>
+&lt;li>&lt;code>a&lt;/code> 在光标后插入&lt;/li>
+&lt;li>&lt;code>A&lt;/code> 在当前行的最后插入&lt;/li>
+&lt;li>&lt;code>o&lt;/code> 在下面新建一行插入&lt;/li>
+&lt;li>&lt;code>O&lt;/code> 在上面新建一行插入&lt;/li>
+&lt;/ul>
+&lt;h3 id="22-改写插入">2.2 改写插入
+&lt;/h3>&lt;ul>
+&lt;li>&lt;code>ciw&lt;/code> 删除光标当前单词并进入插入模式(change in word)&lt;/li>
+&lt;li>&lt;code>ci&amp;quot;&lt;/code> 删除光标引号内的内容并进入插入模式,&amp;ldquo;也可替换为括号大括号等，比较常用&lt;/li>
+&lt;li>&lt;code>ct,&lt;/code> 从当前光标删除到逗号之前的所有字符并进入插入模式，逗号可换为任何字符&lt;/li>
+&lt;/ul>
+&lt;h2 id="剪切复制和寄存器">剪切复制和寄存器
+&lt;/h2>&lt;h3 id="31复制粘贴剪切">3.1复制粘贴剪切
+&lt;/h3>&lt;ul>
+&lt;li>&lt;code>[n]x&lt;/code> 剪切光标右边n个字符，相当与&lt;code>d[n]l&lt;/code>&lt;/li>
+&lt;li>&lt;code>[n]X&lt;/code> 剪切光标左边n个字符，相当于&lt;code>d[n]h&lt;/code>&lt;/li>
+&lt;li>&lt;code>y&lt;/code> 选中后复制文本&lt;/li>
+&lt;li>&lt;code>yy&lt;/code> 复制整行&lt;/li>
+&lt;li>&lt;code>yaw yas&lt;/code> 复制一个单词和一个句子，也可用&lt;code>yiw``yis&lt;/code>&lt;/li>
+&lt;li>&lt;code>d&lt;/code> 删除选中后的内容&lt;/li>
+&lt;li>&lt;code>dd&lt;/code> 删除整行&lt;/li>
+&lt;li>&lt;code>D&lt;/code> 从当前光标删除到行尾&lt;/li>
+&lt;li>&lt;code>daw das&lt;/code> 删除一个单词和一个句子，也可用&lt;code>diw``dis&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h3 id="寄存器">寄存器
+&lt;/h3>&lt;ul>
+&lt;li>&lt;code>a-z&lt;/code> 都可用作寄存器名字,&lt;code>&amp;quot;ayy&lt;/code>把当前行的内容放在a寄存器&lt;/li>
+&lt;li>&lt;code>A-Z&lt;/code> 用大写字母作寄存器可以在寄存器追加内容而不会替换&lt;/li>
+&lt;li>&lt;code>reg&lt;/code> 显示寄存器的所有内容&lt;/li>
+&lt;li>&lt;code>&amp;quot;ap&lt;/code> 粘贴寄存器a里面的内容到当前光标所在处&lt;/li>
+&lt;/ul>
+&lt;h2 id="查找替换">查找替换
+&lt;/h2>&lt;h3 id="41-查找">4.1 查找
+&lt;/h3>&lt;ul>
+&lt;li>&lt;code>/s&lt;/code> 在后面的文本中查找字符串s&lt;/li>
+&lt;li>&lt;code>?something&lt;/code> 在前面的文本中查找字符串s&lt;/li>
+&lt;li>&lt;code>n&lt;/code> 向后查找下一个&lt;/li>
+&lt;li>&lt;code>N&lt;/code> 向前查找下一个&lt;/li>
+&lt;/ul>
+&lt;h3 id="42-替换">4.2 替换
+&lt;/h3>&lt;ul>
+&lt;li>&lt;code>:s/old/new&lt;/code> 用new替换当前行的第一个old&lt;/li>
+&lt;li>&lt;code>:s/old/new/g&lt;/code> 用new替换当前行的所有old&lt;/li>
+&lt;li>&lt;code>:%s/old/new/g&lt;/code> 用new替换文件中所有的old&lt;/li>
+&lt;li>&lt;code>:%s/old/new/gc&lt;/code> 用new替换文件中所有的old,但每次替换用户都要确认&lt;/li>
+&lt;/ul>
+&lt;h3 id="43窗口编辑">4.3窗口编辑
+&lt;/h3>&lt;ul>
+&lt;li>&lt;code>ctrl+w v&lt;/code> 垂直分隔当前窗口&lt;/li>
+&lt;li>&lt;code>ctrl+w s&lt;/code> 水平分隔当前窗口&lt;/li>
+&lt;li>&lt;code>ctrl+w w&lt;/code> 在分隔后的窗口之间切换&lt;/li>
+&lt;li>&lt;code>ctrl+w h/j/k/l&lt;/code> 在分隔后的窗口上下左右移动&lt;/li>
+&lt;/ul>
+&lt;h2 id="快速编辑">快速编辑
+&lt;/h2>&lt;h3 id="51-normal模式替换">5.1 normal模式替换
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>r&lt;/code> 替换光标处的字符，支持汉字&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>R&lt;/code> 从当前光标处逐字替换后面的所有字符&lt;/p>
+&lt;h3 id="52-大小写切换">5.2 大小写切换
+&lt;/h3>&lt;/li>
+&lt;li>
+&lt;p>&lt;code>~&lt;/code> 反转光标处的大小写&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>u/U&lt;/code> 可视模式下，选中的文本变成大小写&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>gu/U+范围&lt;/code> 把范围内的文本变成大小写&lt;/p>
+&lt;h3 id="53-撤销重做">5.3 撤销重做
+&lt;/h3>&lt;/li>
+&lt;li>
+&lt;p>&lt;code>u&lt;/code> 撤销上一步，前面可加n撤销上n步&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>U&lt;/code> 取消当前行的所有改动&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>ctrl+r&lt;/code> 重做最后的改动&lt;/p>
+&lt;h3 id="54-宏">5.4 宏
+&lt;/h3>&lt;/li>
+&lt;li>
+&lt;p>&lt;code>.&lt;/code> 重复上一个编辑动作&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>qa&lt;/code> 开始录制宏a&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>q&lt;/code> 停止录制&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>@a&lt;/code> 播放宏a&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>在Windows中使用vscode + gitbash + oh-my-zsh打造完美的开发体验</title><link>https://blazarix.github.io./p/%E5%9C%A8windows%E4%B8%AD%E4%BD%BF%E7%94%A8vscode--gitbash--oh-my-zsh%E6%89%93%E9%80%A0%E5%AE%8C%E7%BE%8E%E7%9A%84%E5%BC%80%E5%8F%91%E4%BD%93%E9%AA%8C/</link><pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate><guid>https://blazarix.github.io./p/%E5%9C%A8windows%E4%B8%AD%E4%BD%BF%E7%94%A8vscode--gitbash--oh-my-zsh%E6%89%93%E9%80%A0%E5%AE%8C%E7%BE%8E%E7%9A%84%E5%BC%80%E5%8F%91%E4%BD%93%E9%AA%8C/</guid><description>&lt;h2 id="前言">前言
+&lt;/h2>&lt;hr>
+&lt;p>windows端自带的命令行太弱了，用惯了linux命令行，所以想着能不能在windows中也能使用linux/mac中颜值超高的oh-my-zsh,于是开始各种百度搜索教程，试了很多，大多都很麻烦，而且中间有各种坑，试了几个还是放弃了，最后还是看到了&lt;a class="link" href="http://i.lckiss.com/?p=6268" target="_blank" rel="noopener"
+>伪斜杠青年的博客&lt;/a>，终于配置成功了。&lt;/p>
+&lt;h2 id="安装步骤">安装步骤
+&lt;/h2>&lt;hr>
+&lt;h3 id="vscode-配置gitbash作为默认终端">vscode 配置gitbash作为默认终端
+&lt;/h3>&lt;p>粘贴以下配置文件到&lt;code>vscode-&amp;gt;settings.json&lt;/code>中&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="s2">&amp;#34;Git-Bash&amp;#34;&lt;/span>&lt;span class="err">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;path&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;D:\\ProgramFiles\\Git\\bin\\bash.exe&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;args&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">[]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>&lt;span class="err">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2">&amp;#34;terminal.integrated.defaultProfile.windows&amp;#34;&lt;/span>&lt;span class="err">:&lt;/span> &lt;span class="s2">&amp;#34;Git-Bash&amp;#34;&lt;/span>&lt;span class="err">,&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>然后每次打开vscode默认就是gitbash啦&lt;/p>
+&lt;h3 id="下载并解压zsh">下载并解压zsh
+&lt;/h3>&lt;p>&lt;a class="link" href="https://packages.msys2.org/package/zsh?repo=msys&amp;amp;variant=x86_64" target="_blank" rel="noopener"
+>官方下载地址&lt;/a>&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>下载后解压到git的根目录并覆盖&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>进入git/usr/bin目录下，发现有两个zsh文件&lt;code>zsh.exe&lt;/code> &lt;code>zsh-5.8.exe&lt;/code>，删除&lt;code>zsh.exe&lt;/code>这个文件，然后把&lt;code>zsh-5.8.exe&lt;/code>这个文件重命名为&lt;code>zsh&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>进入到用户根目录&lt;code>~&lt;/code>下，安装 oh-my-zsh 。一键式安装指令：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="n">sh&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="n">c&lt;/span> &lt;span class="s2">&amp;#34;$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>由于github在国内访问速度慢很容易克隆不下来，所以还是建议用国内的码云克隆下来&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git clone git@gitee.com:mirrors/oh-my-zsh.git
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>打开gitbash执行zsh就可以看到zsh界面了&lt;img src="https://img.blazarx.xyz/img/20220322224020.png"
+loading="lazy"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>打开vscode查看&lt;img src="https://img.blazarx.xyz/img/20220322225155.png"
+loading="lazy"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>每次打开都要输入zsh太过麻烦，在&lt;code>~/.bashrc&lt;/code>文件中添加下面几行,这样每次打开bash就自动进入zsh了&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"># Launch Zsh
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">if [ -t 1 ]; then
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">exec zsh
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">fi
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;/ol>
+&lt;h2 id="安装插件">安装插件
+&lt;/h2>&lt;hr>
+&lt;ol>
+&lt;li>
+&lt;p>用zsh当然最重要的就是插件啦，git clone容易失效，所以我选择直接到github仓库把zip包下载下来，
 选择两个最常用的插件
-&lt;img src=&#34;https://img.blazarx.xyz/img/20220322224902.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;2&#34;
-	
-	
-&gt;
-在下载&lt;code&gt;zsh-autosuggestions&lt;/code&gt;这个插件的时候,一定不能下载最新版本，否则在vscode中打开gitbash会出先按退格键命令乱飘的情况，切换tag到0.6.4下载这个版本即可
-&lt;img src=&#34;https://img.blazarx.xyz/img/20220322225105.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;3&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;下载后解压到&lt;code&gt;~/.oh-my-zsh/custom/plugins&lt;/code&gt;目录下
-&lt;img src=&#34;https://img.blazarx.xyz/img/20220322225624.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;4&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;打开&lt;code&gt;~/.zshrc&lt;/code&gt;，修改下面的配置,以后再添加插件，在括号里继续添加就可以了，插件名一定要对应&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;执行&lt;code&gt;source ~/.zshrc&lt;/code&gt; 命令重载配置，这样插件就生效了&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;OK!&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        </item>
-        <item>
-        <title>hugo-stack主题使用giscus作为评论平台</title>
-        <link>https://blazarix.github.io./p/hugo-stack%E4%B8%BB%E9%A2%98%E4%BD%BF%E7%94%A8giscus%E4%BD%9C%E4%B8%BA%E8%AF%84%E8%AE%BA%E5%B9%B3%E5%8F%B0/</link>
-        <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://blazarix.github.io./p/hugo-stack%E4%B8%BB%E9%A2%98%E4%BD%BF%E7%94%A8giscus%E4%BD%9C%E4%B8%BA%E8%AF%84%E8%AE%BA%E5%B9%B3%E5%8F%B0/</guid>
-        <description>&lt;p&gt;在网上找了几个评论平台，最后还是选择使用giscus，使用起来也方便,&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://giscus.app/zh-CN&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;官方中文文档&lt;/a&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;选择一个公开的仓库，开启giscus功能,路径是&lt;code&gt;setting-&amp;gt;Features-&amp;gt;Discussions&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/apps/giscus/installations/new/permissions?target_id=56386674&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;安装giscus app&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;填写配置文件，&lt;code&gt;repoID&lt;/code&gt;和&lt;code&gt;categoryID&lt;/code&gt;刚开始不知道如何获取，可以通过官方的&lt;a class=&#34;link&#34; href=&#34;https://docs.github.com/en/graphql/overview/explorer&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;GraphQL API&lt;/a&gt;,分类这里我选常用的General，映射关系一般用pathname,查询语句如下&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-GraphQL&#34; data-lang=&#34;GraphQL&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;py&#34;&gt;repository&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;py&#34;&gt;owner&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;MichaelTan9999&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;michaeltan9999.github.io&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;py&#34;&gt;discussionCategories&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;py&#34;&gt;first&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;py&#34;&gt;nodes&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;py&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;py&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;配置文件&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yml&#34; data-lang=&#34;yml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;giscus&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;     &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;repo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;              &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# github用户名/仓库名&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;     &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;repoID&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;            &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;#仓库ID&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;     &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;category&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;          &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# General&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;     &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;categoryID&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;#分类ID &lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;     &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;mapping&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;           &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;#pathname&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;     &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;lightTheme&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;        
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;     &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;darkTheme&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;     &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;reactionsEnabled&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;     &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;emitMetadata&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-        </item>
-        <item>
-        <title>hugo自动部署博客到云服务器</title>
-        <link>https://blazarix.github.io./p/hugo%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2%E5%88%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
-        <pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://blazarix.github.io./p/hugo%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2%E5%88%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
-        <description>&lt;p&gt;常规的发布博客的步骤太过复杂，发布博客有两种方案&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;在windows本地安装hugo，只在服务器推送生成好的静态文件&lt;/li&gt;
-&lt;li&gt;在服务器安装hugo，在本地写好文章后，推送到github或者码云等远程仓库，服务器拉取最新的文章
-所以就有两种不同的自动部署方案了，一种是在本地写好shell脚本，直接把生成的静态文件推送到服务器。一种是推送到github触发gitaciton然后服务器再拉取最新改动，重新生成静态文件。其实使用gitaciton是最好的，这样就不用在本地再装一个hugo了，只需要写好文章推送到github即可，但是奈何国内访问github的速度实在太感人，而且有时还访问不了。两种方法都试了，gitaction的生成速度太慢了，更多的时间是花在了服务器git pull这一步。最后还是使用本地ssh到服务器推送静态文件这个方法，比gitaciton快多了。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;方法一使用shell脚本&#34;&gt;方法一：使用shell脚本
-&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;此方法需要本地安装的有OpenSSH，然后把本地生成的公钥复制到服务器~/.ssh/authorized_keys文件中，能实现免密码连接ssh&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;进入hugo文件夹根目录，本地新建一个deploy.sh文件,因为windows不支持运行shell脚本，但是一般我们都安装的有git，如果运行不了的话，就去看看Git安装位置下的bin文件夹有没有添加到环境变量中，可以看到文件夹下有sh.exe这个文件，这样就能运行shell脚本了&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 当前目录里已经生成的静态文件删除&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;rm -rf ./public 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;清理完成&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#生成静态文件&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#传输到服务器,把public目录下的所有文件上传到服务器&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;scp -r ./public/* user@host:/www/wwwroot/hugo/public/
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;文件传输完成&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;然后每次编写完博客后，只需要再此目录下运行&lt;code&gt;sh deploy.sh&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&#34;方法二使用gitaction&#34;&gt;方法二：使用gitAction
-&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;这种方法，可以在任何电脑上都能写博客,不用在本地安装hugo等工具，只要编写博客然后提交到github就行&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;先把hugo生成的站点目录上传到github&lt;/li&gt;
-&lt;li&gt;添加全局环境变量，因为gitAction其实也是要在一个虚拟机上运行流水线的，所有想要操作自己的服务器肯定需要连接服务器。添加好&lt;code&gt;ACCESS_TOKEN&lt;/code&gt;，就是在服务器端生成的公钥文件。&lt;code&gt;SSH_HOST&lt;/code&gt;主机地址，&lt;code&gt;SSH_USERNAME&lt;/code&gt;要连接的用户名。
-&lt;img src=&#34;https://img.blazarx.xyz/img/20220320152708.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-	
-&gt;&lt;/li&gt;
-&lt;li&gt;在项目主目录添加.github/workflows/deploy.yml文件，这样gitAction会自动识别yml文件中的命令来执行流水线&lt;/li&gt;
-&lt;li&gt;编写deploy.yml文件&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;30
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;31
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;32
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;33
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;34
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yml&#34; data-lang=&#34;yml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;auto-deploy hugo-blog&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;on&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# 触发条件，当有push操作时就触发流水线&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;push&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# 也可以可以指定分支&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;#   branches:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;#      -main&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# 添加一个任务 &lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;jobs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;build&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# 运行在最新版本的ubutu虚拟机中&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;runs-on&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;ubuntu-latest&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# 执行步骤&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;steps&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;#切换分支&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Checkout Repository master branch&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;uses&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;actions/checkout@main&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;#连接到服务器&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Run Shell&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;uses&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;appleboy/ssh-action@master&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;with&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;#配置连接ssh的参数&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;host&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;${{ secrets.SSH_HOST }} &lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;username&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;${{ secrets.SSH_USERNAME }}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;key&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;${{ secrets.ACCESS_TOKEN }}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;#运行脚本&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;sd&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;            # 拉取最新更改
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;            cd /www/wwwroot/hugo
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;            git pull
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;            # 删除public文件夹重新生成
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;            rm -rf ./public/*
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;            hugo&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;            
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-        </item>
-        <item>
-        <title>Linux运行shell脚本提示No such file or directory</title>
-        <link>https://blazarix.github.io./p/linux%E8%BF%90%E8%A1%8Cshell%E8%84%9A%E6%9C%AC%E6%8F%90%E7%A4%BAno-such-file-or-directory/</link>
-        <pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://blazarix.github.io./p/linux%E8%BF%90%E8%A1%8Cshell%E8%84%9A%E6%9C%AC%E6%8F%90%E7%A4%BAno-such-file-or-directory/</guid>
-        <description>&lt;h3 id=&#34;起因&#34;&gt;起因
-&lt;/h3&gt;&lt;p&gt;在windows中写好的shell脚本，传到linux服务器中执行，提示No such file or directory错误，检查了一遍脚本编写的没问题&lt;/p&gt;
-&lt;h3 id=&#34;错误原因&#34;&gt;错误原因
-&lt;/h3&gt;&lt;p&gt;windows写好的shell文件默认是dos格式的，而linux运行文件的时候只识别unix格式的，所以文件编码出现了问题，导致没有正确读取到shell文件的内容&lt;/p&gt;
-&lt;h3 id=&#34;解决方法&#34;&gt;解决方法
-&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;用vim打开文件&lt;/li&gt;
-&lt;li&gt;输入&lt;code&gt;:set ff&lt;/code&gt;，回车显示fileformat=dos&lt;/li&gt;
-&lt;li&gt;执行&lt;code&gt;:set ff=unix&lt;/code&gt; ,回车保存退出&lt;/li&gt;
-&lt;li&gt;再执行命令 &lt;code&gt;sh test.sh&lt;/code&gt;，成功了&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        </item>
-        <item>
-        <title>归档</title>
-        <link>https://blazarix.github.io./archives/</link>
-        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://blazarix.github.io./archives/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>About</title>
-        <link>https://blazarix.github.io./about/</link>
-        <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://blazarix.github.io./about/</guid>
-        <description>&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Apache Licence 2.0.&lt;/a&gt; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;
-&lt;p&gt;Hugo makes use of a variety of open source projects including:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yuin/goldmark&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/yuin/goldmark&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/alecthomas/chroma&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/alecthomas/chroma&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/muesli/smartcrop&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/muesli/smartcrop&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/spf13/cobra&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/spf13/cobra&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/spf13/viper&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/spf13/viper&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.&lt;/p&gt;
-&lt;p&gt;Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.&lt;/p&gt;
-&lt;p&gt;Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.&lt;/p&gt;
-&lt;p&gt;Learn more and contribute on &lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>链接</title>
-        <link>https://blazarix.github.io./%E9%93%BE%E6%8E%A5/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://blazarix.github.io./%E9%93%BE%E6%8E%A5/</guid>
-        <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
-&lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;links&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;GitHub&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;description&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;GitHub is the world&amp;#39;s largest software development platform.&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;website&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://github.com&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;TypeScript&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;description&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;website&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://www.typescriptlang.org&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;ts-logo-128.jpg&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;code&gt;image&lt;/code&gt; field accepts both local and external images.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>搜索</title>
-        <link>https://blazarix.github.io./search/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://blazarix.github.io./search/</guid>
-        <description></description>
-        </item>
-        
-    </channel>
-</rss>
+&lt;img src="https://img.blazarx.xyz/img/20220322224902.png"
+loading="lazy"
+alt="2"
+>
+在下载&lt;code>zsh-autosuggestions&lt;/code>这个插件的时候,一定不能下载最新版本，否则在vscode中打开gitbash会出先按退格键命令乱飘的情况，切换tag到0.6.4下载这个版本即可
+&lt;img src="https://img.blazarx.xyz/img/20220322225105.png"
+loading="lazy"
+alt="3"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>下载后解压到&lt;code>~/.oh-my-zsh/custom/plugins&lt;/code>目录下
+&lt;img src="https://img.blazarx.xyz/img/20220322225624.png"
+loading="lazy"
+alt="4"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>打开&lt;code>~/.zshrc&lt;/code>，修改下面的配置,以后再添加插件，在括号里继续添加就可以了，插件名一定要对应&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>执行&lt;code>source ~/.zshrc&lt;/code> 命令重载配置，这样插件就生效了&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>OK!&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>hugo-stack主题使用giscus作为评论平台</title><link>https://blazarix.github.io./p/hugo-stack%E4%B8%BB%E9%A2%98%E4%BD%BF%E7%94%A8giscus%E4%BD%9C%E4%B8%BA%E8%AF%84%E8%AE%BA%E5%B9%B3%E5%8F%B0/</link><pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate><guid>https://blazarix.github.io./p/hugo-stack%E4%B8%BB%E9%A2%98%E4%BD%BF%E7%94%A8giscus%E4%BD%9C%E4%B8%BA%E8%AF%84%E8%AE%BA%E5%B9%B3%E5%8F%B0/</guid><description>&lt;p>在网上找了几个评论平台，最后还是选择使用giscus，使用起来也方便,&lt;/p>
+&lt;p>&lt;a class="link" href="https://giscus.app/zh-CN" target="_blank" rel="noopener"
+>官方中文文档&lt;/a>&lt;/p>
+&lt;ol>
+&lt;li>选择一个公开的仓库，开启giscus功能,路径是&lt;code>setting-&amp;gt;Features-&amp;gt;Discussions&lt;/code>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/apps/giscus/installations/new/permissions?target_id=56386674" target="_blank" rel="noopener"
+>安装giscus app&lt;/a>&lt;/li>
+&lt;li>填写配置文件，&lt;code>repoID&lt;/code>和&lt;code>categoryID&lt;/code>刚开始不知道如何获取，可以通过官方的&lt;a class="link" href="https://docs.github.com/en/graphql/overview/explorer" target="_blank" rel="noopener"
+>GraphQL API&lt;/a>,分类这里我选常用的General，映射关系一般用pathname,查询语句如下&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-GraphQL" data-lang="GraphQL">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="py">repository&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="py">owner&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s">&amp;#34;MichaelTan9999&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nc">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s">&amp;#34;michaeltan9999.github.io&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">{&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nc">id&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="py">discussionCategories&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="py">first&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nc">5&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">{&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="py">nodes&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">{&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="py">name&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="py">id&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="p">}&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="p">}&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="p">}&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="p">}&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>配置文件&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-yml" data-lang="yml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">giscus&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">repo&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># github用户名/仓库名&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">repoID&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c">#仓库ID&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">category&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># General&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">categoryID&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c">#分类ID &lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">mapping&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c">#pathname&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">lightTheme&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">darkTheme&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">reactionsEnabled&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">emitMetadata&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>hugo自动部署博客到云服务器</title><link>https://blazarix.github.io./p/hugo%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2%E5%88%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/</link><pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate><guid>https://blazarix.github.io./p/hugo%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2%E5%88%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid><description>&lt;p>常规的发布博客的步骤太过复杂，发布博客有两种方案&lt;/p>
+&lt;ol>
+&lt;li>在windows本地安装hugo，只在服务器推送生成好的静态文件&lt;/li>
+&lt;li>在服务器安装hugo，在本地写好文章后，推送到github或者码云等远程仓库，服务器拉取最新的文章
+所以就有两种不同的自动部署方案了，一种是在本地写好shell脚本，直接把生成的静态文件推送到服务器。一种是推送到github触发gitaciton然后服务器再拉取最新改动，重新生成静态文件。其实使用gitaciton是最好的，这样就不用在本地再装一个hugo了，只需要写好文章推送到github即可，但是奈何国内访问github的速度实在太感人，而且有时还访问不了。两种方法都试了，gitaction的生成速度太慢了，更多的时间是花在了服务器git pull这一步。最后还是使用本地ssh到服务器推送静态文件这个方法，比gitaciton快多了。&lt;/li>
+&lt;/ol>
+&lt;h2 id="方法一使用shell脚本">方法一：使用shell脚本
+&lt;/h2>&lt;blockquote>
+&lt;p>此方法需要本地安装的有OpenSSH，然后把本地生成的公钥复制到服务器~/.ssh/authorized_keys文件中，能实现免密码连接ssh&lt;/p>
+&lt;/blockquote>
+&lt;p>进入hugo文件夹根目录，本地新建一个deploy.sh文件,因为windows不支持运行shell脚本，但是一般我们都安装的有git，如果运行不了的话，就去看看Git安装位置下的bin文件夹有没有添加到环境变量中，可以看到文件夹下有sh.exe这个文件，这样就能运行shell脚本了&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 当前目录里已经生成的静态文件删除&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">rm -rf ./public
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">echo&lt;/span> &lt;span class="s2">&amp;#34;清理完成&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">#生成静态文件&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">hugo
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">#传输到服务器,把public目录下的所有文件上传到服务器&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">scp -r ./public/* user@host:/www/wwwroot/hugo/public/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">echo&lt;/span> &lt;span class="s2">&amp;#34;文件传输完成&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>然后每次编写完博客后，只需要再此目录下运行&lt;code>sh deploy.sh&lt;/code>&lt;/p>
+&lt;h2 id="方法二使用gitaction">方法二：使用gitAction
+&lt;/h2>&lt;blockquote>
+&lt;p>这种方法，可以在任何电脑上都能写博客,不用在本地安装hugo等工具，只要编写博客然后提交到github就行&lt;/p>
+&lt;/blockquote>
+&lt;ol>
+&lt;li>先把hugo生成的站点目录上传到github&lt;/li>
+&lt;li>添加全局环境变量，因为gitAction其实也是要在一个虚拟机上运行流水线的，所有想要操作自己的服务器肯定需要连接服务器。添加好&lt;code>ACCESS_TOKEN&lt;/code>，就是在服务器端生成的公钥文件。&lt;code>SSH_HOST&lt;/code>主机地址，&lt;code>SSH_USERNAME&lt;/code>要连接的用户名。
+&lt;img src="https://img.blazarx.xyz/img/20220320152708.png"
+loading="lazy"
+>&lt;/li>
+&lt;li>在项目主目录添加.github/workflows/deploy.yml文件，这样gitAction会自动识别yml文件中的命令来执行流水线&lt;/li>
+&lt;li>编写deploy.yml文件&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;span class="lnt">27
+&lt;/span>&lt;span class="lnt">28
+&lt;/span>&lt;span class="lnt">29
+&lt;/span>&lt;span class="lnt">30
+&lt;/span>&lt;span class="lnt">31
+&lt;/span>&lt;span class="lnt">32
+&lt;/span>&lt;span class="lnt">33
+&lt;/span>&lt;span class="lnt">34
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-yml" data-lang="yml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">auto-deploy hugo-blog&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="c"># 触发条件，当有push操作时就触发流水线&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">push&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="c"># 也可以可以指定分支&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="c"># branches:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="c"># -main&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="c"># 添加一个任务 &lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">jobs&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">build&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c"># 运行在最新版本的ubutu虚拟机中&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">runs-on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">ubuntu-latest&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c"># 执行步骤&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">steps&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c">#切换分支&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Checkout Repository master branch&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">actions/checkout@main&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c">#连接到服务器&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Run Shell&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">appleboy/ssh-action@master&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c">#配置连接ssh的参数&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">host&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">${{ secrets.SSH_HOST }} &lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">username&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">${{ secrets.SSH_USERNAME }}&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">key&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">${{ secrets.ACCESS_TOKEN }}&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c">#运行脚本&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">|&lt;/span>&lt;span class="sd">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd"> # 拉取最新更改
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd"> cd /www/wwwroot/hugo
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd"> git pull
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd"> # 删除public文件夹重新生成
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd"> rm -rf ./public/*
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd"> hugo&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>Linux运行shell脚本提示No such file or directory</title><link>https://blazarix.github.io./p/linux%E8%BF%90%E8%A1%8Cshell%E8%84%9A%E6%9C%AC%E6%8F%90%E7%A4%BAno-such-file-or-directory/</link><pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate><guid>https://blazarix.github.io./p/linux%E8%BF%90%E8%A1%8Cshell%E8%84%9A%E6%9C%AC%E6%8F%90%E7%A4%BAno-such-file-or-directory/</guid><description>&lt;h3 id="起因">起因
+&lt;/h3>&lt;p>在windows中写好的shell脚本，传到linux服务器中执行，提示No such file or directory错误，检查了一遍脚本编写的没问题&lt;/p>
+&lt;h3 id="错误原因">错误原因
+&lt;/h3>&lt;p>windows写好的shell文件默认是dos格式的，而linux运行文件的时候只识别unix格式的，所以文件编码出现了问题，导致没有正确读取到shell文件的内容&lt;/p>
+&lt;h3 id="解决方法">解决方法
+&lt;/h3>&lt;ol>
+&lt;li>用vim打开文件&lt;/li>
+&lt;li>输入&lt;code>:set ff&lt;/code>，回车显示fileformat=dos&lt;/li>
+&lt;li>执行&lt;code>:set ff=unix&lt;/code> ,回车保存退出&lt;/li>
+&lt;li>再执行命令 &lt;code>sh test.sh&lt;/code>，成功了&lt;/li>
+&lt;/ol></description></item><item><title>归档</title><link>https://blazarix.github.io./archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://blazarix.github.io./archives/</guid><description/></item><item><title>About</title><link>https://blazarix.github.io./about/</link><pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate><guid>https://blazarix.github.io./about/</guid><description>&lt;p>Written in Go, Hugo is an open source static site generator available under the &lt;a class="link" href="https://github.com/gohugoio/hugo/blob/master/LICENSE" target="_blank" rel="noopener"
+>Apache Licence 2.0.&lt;/a> Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p>
+&lt;p>Hugo makes use of a variety of open source projects including:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/yuin/goldmark" target="_blank" rel="noopener"
+>https://github.com/yuin/goldmark&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/alecthomas/chroma" target="_blank" rel="noopener"
+>https://github.com/alecthomas/chroma&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/muesli/smartcrop" target="_blank" rel="noopener"
+>https://github.com/muesli/smartcrop&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/spf13/cobra" target="_blank" rel="noopener"
+>https://github.com/spf13/cobra&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/spf13/viper" target="_blank" rel="noopener"
+>https://github.com/spf13/viper&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.&lt;/p>
+&lt;p>Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.&lt;/p>
+&lt;p>Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.&lt;/p>
+&lt;p>Learn more and contribute on &lt;a class="link" href="https://github.com/gohugoio" target="_blank" rel="noopener"
+>GitHub&lt;/a>.&lt;/p></description></item><item><title>链接</title><link>https://blazarix.github.io./%E9%93%BE%E6%8E%A5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blazarix.github.io./%E9%93%BE%E6%8E%A5/</guid><description>&lt;p>To use this feature, add &lt;code>links&lt;/code> section to frontmatter.&lt;/p>
+&lt;p>This page&amp;rsquo;s frontmatter:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">links&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">title&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">GitHub&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">description&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">GitHub is the world&amp;#39;s largest software development platform.&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">website&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://github.com&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">image&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">title&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">TypeScript&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">description&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">website&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://www.typescriptlang.org&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">image&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">ts-logo-128.jpg&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;code>image&lt;/code> field accepts both local and external images.&lt;/p></description></item><item><title>搜索</title><link>https://blazarix.github.io./search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blazarix.github.io./search/</guid><description/></item></channel></rss>

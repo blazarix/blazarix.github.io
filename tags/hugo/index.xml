@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on 演示站点</title><link>https://blazarix.github.io./tags/hugo/</link><description>Recent content in Hugo on 演示站点</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Example Person</copyright><lastBuildDate>Sun, 20 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blazarix.github.io./tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>hugo-stack主题使用giscus作为评论平台</title><link>https://blazarix.github.io./p/hugo-stack%E4%B8%BB%E9%A2%98%E4%BD%BF%E7%94%A8giscus%E4%BD%9C%E4%B8%BA%E8%AF%84%E8%AE%BA%E5%B9%B3%E5%8F%B0/</link><pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate><guid>https://blazarix.github.io./p/hugo-stack%E4%B8%BB%E9%A2%98%E4%BD%BF%E7%94%A8giscus%E4%BD%9C%E4%B8%BA%E8%AF%84%E8%AE%BA%E5%B9%B3%E5%8F%B0/</guid><description>&lt;p>在网上找了几个评论平台，最后还是选择使用giscus，使用起来也方便,&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on 演示站点</title><link>https://blazarix.github.io./tags/hugo/</link><description>Recent content in Hugo on 演示站点</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Example Person</copyright><lastBuildDate>Mon, 25 Nov 2024 01:02:46 +0800</lastBuildDate><atom:link href="https://blazarix.github.io./tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>hugo + gitaction 搭建自动化部署</title><link>https://blazarix.github.io./post/hugo-gitaction-builds-automated-deployment-1dj9vd.html</link><pubDate>Mon, 25 Nov 2024 01:01:26 +0800</pubDate><guid>https://blazarix.github.io./post/hugo-gitaction-builds-automated-deployment-1dj9vd.html</guid><description>&lt;h1 id="hugo--gitaction-搭建自动化部署">hugo + gitaction 搭建自动化部署
+&lt;/h1>&lt;p>hugo + gitaction 搭建自动化部署&lt;/p>
+&lt;p>hugo + gitaction 搭建自动化部署&lt;/p>
+&lt;p>hugo + gitaction 搭建自动化部署&lt;/p>
+&lt;p>hugo + gitaction 搭建自动化部署&lt;/p>
+&lt;p>hugo + gitaction 搭建自动化部署&lt;/p>
+&lt;p>​&lt;img src="https://raw.githubusercontent.com/blazarix/blog-hugo-source/main/assets20241125010153.png"
+loading="lazy"
+alt="image"
+>​&lt;/p></description></item><item><title>hugo-stack主题使用giscus作为评论平台</title><link>https://blazarix.github.io./p/hugo-stack%E4%B8%BB%E9%A2%98%E4%BD%BF%E7%94%A8giscus%E4%BD%9C%E4%B8%BA%E8%AF%84%E8%AE%BA%E5%B9%B3%E5%8F%B0/</link><pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate><guid>https://blazarix.github.io./p/hugo-stack%E4%B8%BB%E9%A2%98%E4%BD%BF%E7%94%A8giscus%E4%BD%9C%E4%B8%BA%E8%AF%84%E8%AE%BA%E5%B9%B3%E5%8F%B0/</guid><description>&lt;p>在网上找了几个评论平台，最后还是选择使用giscus，使用起来也方便,&lt;/p>
 &lt;p>&lt;a class="link" href="https://giscus.app/zh-CN" target="_blank" rel="noopener"
 >官方中文文档&lt;/a>&lt;/p>
 &lt;ol>

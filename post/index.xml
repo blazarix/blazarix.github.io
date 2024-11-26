@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on blazar的小屋</title><link>https://blazarix.github.io./post/</link><description>Recent content in Posts on blazar的小屋</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>blazarix</copyright><lastBuildDate>Tue, 26 Nov 2024 16:01:15 +0800</lastBuildDate><atom:link href="https://blazarix.github.io./post/index.xml" rel="self" type="application/rss+xml"/><item><title>hugo-stack主题使用giscus作为评论平台</title><link>https://blazarix.github.io./post/hugostack-theme-uses-gimcus-as-a-review-platform-1x2njk.html</link><pubDate>Mon, 25 Nov 2024 23:26:09 +0800</pubDate><guid>https://blazarix.github.io./post/hugostack-theme-uses-gimcus-as-a-review-platform-1x2njk.html</guid><description>&lt;h1 id="hugo-stack主题使用giscus作为评论平台">hugo-stack主题使用giscus作为评论平台
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on blazar的小屋</title><link>https://blazarix.github.io./post/</link><description>Recent content in Posts on blazar的小屋</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>blazarix</copyright><lastBuildDate>Tue, 26 Nov 2024 16:14:36 +0800</lastBuildDate><atom:link href="https://blazarix.github.io./post/index.xml" rel="self" type="application/rss+xml"/><item><title>hugo-stack主题使用giscus作为评论平台</title><link>https://blazarix.github.io./post/hugostack-theme-uses-gimcus-as-a-review-platform-1x2njk.html</link><pubDate>Mon, 25 Nov 2024 23:26:09 +0800</pubDate><guid>https://blazarix.github.io./post/hugostack-theme-uses-gimcus-as-a-review-platform-1x2njk.html</guid><description>&lt;h1 id="hugo-stack主题使用giscus作为评论平台">hugo-stack主题使用giscus作为评论平台
 &lt;/h1>&lt;p>在网上找了几个评论平台，最后还是选择使用giscus，使用起来也方便,&lt;/p>
 &lt;p>&lt;a class="link" href="https://giscus.app/zh-CN" target="_blank" rel="noopener"
 >官方中文文档&lt;/a>&lt;/p>
@@ -67,7 +67,14 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">emitMetadata&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>‍&lt;/p></description></item><item><title>go run/build等命令无反应</title><link>https://blazarix.github.io./p/go-run/build%E7%AD%89%E5%91%BD%E4%BB%A4%E6%97%A0%E5%8F%8D%E5%BA%94/</link><pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate><guid>https://blazarix.github.io./p/go-run/build%E7%AD%89%E5%91%BD%E4%BB%A4%E6%97%A0%E5%8F%8D%E5%BA%94/</guid><description>&lt;p>在服务器安装了go环境后，运行&lt;code>go run&lt;/code> &lt;code>go build&lt;/code>等命令都会卡住&lt;/p>
+&lt;/div>&lt;p>‍&lt;/p></description></item><item><title>删除百度网盘我的应用数据文件夹</title><link>https://blazarix.github.io./post/delete-baidu-network-disk-my-application-data-folder-z2ly6gn.html</link><pubDate>Mon, 30 May 2022 15:11:24 +0800</pubDate><guid>https://blazarix.github.io./post/delete-baidu-network-disk-my-application-data-folder-z2ly6gn.html</guid><description>&lt;h1 id="删除百度网盘我的应用数据文件夹">删除百度网盘我的应用数据文件夹
+&lt;/h1>&lt;p>对于有强迫症的我来说，百度网盘这个&lt;code>我的应用数据&lt;/code>文件夹非常碍眼，所以尝试各种方法想删除掉它，最后在百度上找到了这个方法成功删除了&lt;/p>
+&lt;ol>
+&lt;li>下载&lt;a class="link" href="assets/base2-20220530151335-5wrajwx.apk" >ES文件管理器 3.2.2.5 版本&lt;/a>&lt;/li>
+&lt;li>不要在侧边栏找到打开百度网盘，这样会一直提示网络错误无法登录。先切换到本地标签页，然后点击网络硬盘，登录百度账号&lt;/li>
+&lt;li>找到&lt;code>apps&lt;/code>这个文件夹，删除！ok&lt;/li>
+&lt;/ol>
+&lt;p>‍&lt;/p></description></item><item><title>go run/build等命令无反应</title><link>https://blazarix.github.io./p/go-run/build%E7%AD%89%E5%91%BD%E4%BB%A4%E6%97%A0%E5%8F%8D%E5%BA%94/</link><pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate><guid>https://blazarix.github.io./p/go-run/build%E7%AD%89%E5%91%BD%E4%BB%A4%E6%97%A0%E5%8F%8D%E5%BA%94/</guid><description>&lt;p>在服务器安装了go环境后，运行&lt;code>go run&lt;/code> &lt;code>go build&lt;/code>等命令都会卡住&lt;/p>
 &lt;p>配置下代理即可&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>blazar的小屋</title><link>https://blazarix.github.io./</link><description>Recent content on blazar的小屋</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>blazarix</copyright><lastBuildDate>Mon, 25 Nov 2024 23:26:23 +0800</lastBuildDate><atom:link href="https://blazarix.github.io./index.xml" rel="self" type="application/rss+xml"/><item><title>hugo-stack主题使用giscus作为评论平台</title><link>https://blazarix.github.io./post/hugostack-theme-uses-gimcus-as-a-review-platform-1x2njk.html</link><pubDate>Mon, 25 Nov 2024 23:26:09 +0800</pubDate><guid>https://blazarix.github.io./post/hugostack-theme-uses-gimcus-as-a-review-platform-1x2njk.html</guid><description>&lt;h1 id="hugo-stack主题使用giscus作为评论平台">hugo-stack主题使用giscus作为评论平台
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>blazar的小屋</title><link>https://blazarix.github.io./</link><description>Recent content on blazar的小屋</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>blazarix</copyright><lastBuildDate>Tue, 26 Nov 2024 16:01:15 +0800</lastBuildDate><atom:link href="https://blazarix.github.io./index.xml" rel="self" type="application/rss+xml"/><item><title>hugo-stack主题使用giscus作为评论平台</title><link>https://blazarix.github.io./post/hugostack-theme-uses-gimcus-as-a-review-platform-1x2njk.html</link><pubDate>Mon, 25 Nov 2024 23:26:09 +0800</pubDate><guid>https://blazarix.github.io./post/hugostack-theme-uses-gimcus-as-a-review-platform-1x2njk.html</guid><description>&lt;h1 id="hugo-stack主题使用giscus作为评论平台">hugo-stack主题使用giscus作为评论平台
 &lt;/h1>&lt;p>在网上找了几个评论平台，最后还是选择使用giscus，使用起来也方便,&lt;/p>
 &lt;p>&lt;a class="link" href="https://giscus.app/zh-CN" target="_blank" rel="noopener"
 >官方中文文档&lt;/a>&lt;/p>
@@ -581,7 +581,79 @@ loading="lazy"
 &lt;li>输入&lt;code>:set ff&lt;/code>，回车显示fileformat=dos&lt;/li>
 &lt;li>执行&lt;code>:set ff=unix&lt;/code> ,回车保存退出&lt;/li>
 &lt;li>再执行命令 &lt;code>sh test.sh&lt;/code>，成功了&lt;/li>
-&lt;/ol></description></item><item><title>归档</title><link>https://blazarix.github.io./archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://blazarix.github.io./archives/</guid><description/></item><item><title>About</title><link>https://blazarix.github.io./about/</link><pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate><guid>https://blazarix.github.io./about/</guid><description>&lt;p>Written in Go, Hugo is an open source static site generator available under the &lt;a class="link" href="https://github.com/gohugoio/hugo/blob/master/LICENSE" target="_blank" rel="noopener"
+&lt;/ol></description></item><item><title>博客</title><link>https://blazarix.github.io./post/blog-1ii5m2.html</link><pubDate>Sat, 23 Oct 2021 23:23:45 +0800</pubDate><guid>https://blazarix.github.io./post/blog-1ii5m2.html</guid><description>&lt;h1 id="博客">博客
+&lt;/h1>&lt;ol>
+&lt;li>Remote SSH 安装过程&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> #Vscode/插件#&lt;/li>
+&lt;li>((20211025170738-adq7x6q &amp;lsquo;Vue页面刷新后404的解决办法&amp;rsquo;)) #vue#&lt;/li>
+&lt;/ol>
+&lt;p>‍&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;h1 id="remote-ssh-安装过程">Remote SSH 安装过程
+&lt;/h1>&lt;p>#Vscode/插件#&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>扩展商店搜索 Remote SSH 进行安装&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>打开 vscode 命令窗口，输入 remote&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>选择 remote connect to host&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>选择创建一个配置文件&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>配置文件填写 host 为自己的 ip 地址，name 为连接名字&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>打开左下角小电脑，点击窗口小 + 号，开始连接&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>输入密码&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>连接成功&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>打开文件夹过多的时候提示文件太多，无法全部监视&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>查看最大用户数，一般是 8129&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">cat&lt;/span> &lt;span class="o">/&lt;/span>&lt;span class="nx">proc&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="nx">sys&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="nx">fs&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="nx">inotify&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="nx">max_user_watches&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>修改最大连接数&lt;/p>
+&lt;p>&lt;code>vim/etc/sysctl.conf&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>末尾加入这行代码&lt;/p>
+&lt;p>&lt;code>fs.inotify.max_user_watches=524288&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>使文件所做的修改生效&lt;/p>
+&lt;p>&lt;code>sysctl -p&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;p>自动登录暂时不能用，先用密码吧，这个先不捣鼓了，以后再说&lt;/p>
+&lt;p>&lt;a class="link" href="https://zhuanlan.zhihu.com/p/68577071" target="_blank" rel="noopener"
+>VS Code Remote SSH配置 - 知乎 (zhihu.com)&lt;/a>&lt;/p>
+&lt;p>‍&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>归档</title><link>https://blazarix.github.io./archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://blazarix.github.io./archives/</guid><description/></item><item><title>About</title><link>https://blazarix.github.io./about/</link><pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate><guid>https://blazarix.github.io./about/</guid><description>&lt;p>Written in Go, Hugo is an open source static site generator available under the &lt;a class="link" href="https://github.com/gohugoio/hugo/blob/master/LICENSE" target="_blank" rel="noopener"
 >Apache Licence 2.0.&lt;/a> Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p>
 &lt;p>Hugo makes use of a variety of open source projects including:&lt;/p>
 &lt;ul>

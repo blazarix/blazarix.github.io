@@ -1,15 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>折腾 on blazar的小屋</title><link>https://blazarix.github.io./categories/%E6%8A%98%E8%85%BE/</link><description>Recent content in 折腾 on blazar的小屋</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>blazarix</copyright><lastBuildDate>Mon, 25 Nov 2024 23:26:23 +0800</lastBuildDate><atom:link href="https://blazarix.github.io./categories/%E6%8A%98%E8%85%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>hugo-stack主题使用giscus作为评论平台</title><link>https://blazarix.github.io./post/hugostack-theme-uses-gimcus-as-a-review-platform-1x2njk.html</link><pubDate>Mon, 25 Nov 2024 23:26:09 +0800</pubDate><guid>https://blazarix.github.io./post/hugostack-theme-uses-gimcus-as-a-review-platform-1x2njk.html</guid><description>&lt;h1 id="hugo-stack主题使用giscus作为评论平台">hugo-stack主题使用giscus作为评论平台
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>折腾 on blazar的小屋</title><link>https://blazarix.github.io./categories/toss/</link><description>Recent content in 折腾 on blazar的小屋</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>blazarix</copyright><lastBuildDate>Mon, 25 Nov 2024 23:26:23 +0800</lastBuildDate><atom:link href="https://blazarix.github.io./categories/toss/index.xml" rel="self" type="application/rss+xml"/><item><title>hugo-stack主题使用giscus作为评论平台</title><link>https://blazarix.github.io./post/hugostack-theme-uses-gimcus-as-a-review-platform-1x2njk.html</link><pubDate>Mon, 25 Nov 2024 23:26:09 +0800</pubDate><guid>https://blazarix.github.io./post/hugostack-theme-uses-gimcus-as-a-review-platform-1x2njk.html</guid><description>&lt;h1 id="hugo-stack主题使用giscus作为评论平台">hugo-stack主题使用giscus作为评论平台
 &lt;/h1>&lt;p>在网上找了几个评论平台，最后还是选择使用giscus，使用起来也方便,&lt;/p>
 &lt;p>&lt;a class="link" href="https://giscus.app/zh-CN" target="_blank" rel="noopener"
 >官方中文文档&lt;/a>&lt;/p>
 &lt;ol>
-&lt;li>选择一个公开的仓库，开启giscus功能,路径是&lt;code>setting-&amp;gt;Features-&amp;gt;Discussions&lt;/code>​&lt;/li>
+&lt;li>选择一个公开的仓库，开启giscus功能,路径是&lt;code>setting-&amp;gt;Features-&amp;gt;Discussions&lt;/code>&lt;/li>
 &lt;li>&lt;a class="link" href="https://github.com/apps/giscus/installations/new/permissions?target_id=56386674" target="_blank" rel="noopener"
 >安装giscus app&lt;/a>&lt;/li>
-&lt;li>填写配置文件，&lt;code>repoID&lt;/code>​和&lt;code>categoryID&lt;/code>​刚开始不知道如何获取，可以通过官方的&lt;a class="link" href="https://docs.github.com/en/graphql/overview/explorer" target="_blank" rel="noopener"
->GraphQL API&lt;/a>,分类这里我选常用的General，映射关系一般用pathname,查询语句如下&lt;/li>
+&lt;li>填写配置文件，&lt;code>repoID&lt;/code> 和 &lt;code>categoryID&lt;/code>刚开始不知道如何获取，可以通过官方的&lt;a class="link" href="https://docs.github.com/en/graphql/overview/explorer" target="_blank" rel="noopener"
+>GraphQL API&lt;/a>,分类这里我选常用的General，映射关系一般用 pathname, 查询语句如下&lt;/li>
 &lt;/ol>
-&lt;p>|&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
@@ -38,8 +37,7 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="p">}&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>Copy配置文件&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
 &lt;/span>&lt;span class="lnt"> 2
@@ -67,4 +65,4 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">emitMetadata&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>‍&lt;/p></description></item></channel></rss>
+&lt;/div></description></item></channel></rss>

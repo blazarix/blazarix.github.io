@@ -74,7 +74,10 @@
 &lt;li>不要在侧边栏找到打开百度网盘，这样会一直提示网络错误无法登录。先切换到本地标签页，然后点击网络硬盘，登录百度账号&lt;/li>
 &lt;li>找到&lt;code>apps&lt;/code>这个文件夹，删除！ok&lt;/li>
 &lt;/ol>
-&lt;p>‍&lt;/p></description></item><item><title>go run/build等命令无反应</title><link>https://blazarix.github.io./p/go-run/build%E7%AD%89%E5%91%BD%E4%BB%A4%E6%97%A0%E5%8F%8D%E5%BA%94/</link><pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate><guid>https://blazarix.github.io./p/go-run/build%E7%AD%89%E5%91%BD%E4%BB%A4%E6%97%A0%E5%8F%8D%E5%BA%94/</guid><description>&lt;p>在服务器安装了go环境后，运行&lt;code>go run&lt;/code> &lt;code>go build&lt;/code>等命令都会卡住&lt;/p>
+&lt;p>​&lt;img src="https://raw.githubusercontent.com/blazarix/blog-hugo-source/main/images/image-20241126161448-pmwahis.png"
+loading="lazy"
+alt="image"
+>​&lt;/p></description></item><item><title>go run/build等命令无反应</title><link>https://blazarix.github.io./p/go-run/build%E7%AD%89%E5%91%BD%E4%BB%A4%E6%97%A0%E5%8F%8D%E5%BA%94/</link><pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate><guid>https://blazarix.github.io./p/go-run/build%E7%AD%89%E5%91%BD%E4%BB%A4%E6%97%A0%E5%8F%8D%E5%BA%94/</guid><description>&lt;p>在服务器安装了go环境后，运行&lt;code>go run&lt;/code> &lt;code>go build&lt;/code>等命令都会卡住&lt;/p>
 &lt;p>配置下代理即可&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
